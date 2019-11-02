@@ -1,0 +1,29 @@
+PODS:
+  - Just (0.6.0)
+  - Kingfisher (4.6.2)
+  - LFLiveKit (2.6)
+  - MJExtension (3.0.13)
+  - SDWebImage (4.3.0):
+    - SDWebImage/Core (= 4.3.0)
+  - SDWebImage/Core (4.3.0)
+  - SnapKit (4.0.0)
+
+DEPENDENCIES:
+  - Just
+  - Kingfisher
+  - LFLiveKit
+  - MJExtension
+  - SDWebImage
+  - SnapKit
+
+SPEC CHECKSUMS:
+  Just: 0b60164cc2b516fbddd8948ef7841c70896f1e4d
+  Kingfisher: 55b9c395bf8d3949676ad3861111923990ab68cf
+  LFLiveKit: 2219563721f8aa0f188effc3395a06e2d53b23f2
+  MJExtension: 5932755f451458eefa24239358817f8d291240c7
+  SDWebImage: 6da6c8bca115addc4de8613362e1b15f66333825
+  SnapKit: a42d492c16e80209130a3379f73596c3454b7694
+
+PODFILE CHECKSUM: 48551c04f4fc41767cf45bf307e2c5ae9f900db9
+
+COCOAPODS: 1.2.1

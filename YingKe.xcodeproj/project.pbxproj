@@ -7,14 +7,60 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6409E3C91EEF894D0092B792 /* IJKMediaFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6409E3C31EEF894D0092B792 /* IJKMediaFramework.framework */; };
+		6409E3CA1EEF894D0092B792 /* libbz2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 6409E3C41EEF894D0092B792 /* libbz2.tbd */; };
+		6409E3CB1EEF894D0092B792 /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6409E3C51EEF894D0092B792 /* libcrypto.a */; };
+		6409E3CC1EEF894D0092B792 /* librtmp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6409E3C61EEF894D0092B792 /* librtmp.a */; };
+		6409E3CD1EEF894D0092B792 /* libssl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6409E3C71EEF894D0092B792 /* libssl.a */; };
+		6409E3CE1EEF894D0092B792 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 6409E3C81EEF894D0092B792 /* libz.tbd */; };
+		6409E3D51EEF922E0092B792 /* DMHeartFlyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6409E3D41EEF922E0092B792 /* DMHeartFlyView.m */; };
+		6409E3D81EEFA7540092B792 /* emmitParticles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6409E3D71EEFA7540092B792 /* emmitParticles.swift */; };
+		641548FF205B5B0A00AA517E /* GiftContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 641548FE205B5B0A00AA517E /* GiftContainerView.swift */; };
 		642D65951EEEAB8E008F645D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 642D65941EEEAB8E008F645D /* AppDelegate.swift */; };
 		642D65971EEEAB8E008F645D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 642D65961EEEAB8E008F645D /* ViewController.swift */; };
 		642D659A1EEEAB8E008F645D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 642D65981EEEAB8E008F645D /* Main.storyboard */; };
 		642D659C1EEEAB8E008F645D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 642D659B1EEEAB8E008F645D /* Assets.xcassets */; };
 		642D659F1EEEAB8E008F645D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 642D659D1EEEAB8E008F645D /* LaunchScreen.storyboard */; };
+		642D65AC1EEEAC4F008F645D /* YKCreator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 642D65A71EEEAC4F008F645D /* YKCreator.swift */; };
+		642D65AD1EEEAC4F008F645D /* YKExtra.swift in Sources */ = {isa = PBXBuildFile; fileRef = 642D65A81EEEAC4F008F645D /* YKExtra.swift */; };
+		642D65AE1EEEAC4F008F645D /* YKLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 642D65A91EEEAC4F008F645D /* YKLabel.swift */; };
+		642D65AF1EEEAC4F008F645D /* YKLive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 642D65AA1EEEAC4F008F645D /* YKLive.swift */; };
+		642D65B01EEEAC4F008F645D /* YKLiveStream.swift in Sources */ = {isa = PBXBuildFile; fileRef = 642D65AB1EEEAC4F008F645D /* YKLiveStream.swift */; };
+		642D65B21EEEAD29008F645D /* YKCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 642D65B11EEEAD29008F645D /* YKCell.swift */; };
+		642D65B41EEEB0CE008F645D /* LivesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 642D65B31EEEB0CE008F645D /* LivesTableViewController.swift */; };
+		642D65B61EEEC6E5008F645D /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 642D65B51EEEC6E5008F645D /* Podfile */; };
+		64318A1F204AD42B002F43CA /* LiveGiftListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64318A1E204AD42B002F43CA /* LiveGiftListModel.swift */; };
+		64318A21204AD449002F43CA /* LiveUserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64318A20204AD449002F43CA /* LiveUserModel.swift */; };
+		64318A23204ADAC9002F43CA /* LiveGiftShowModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64318A22204ADAC9002F43CA /* LiveGiftShowModel.swift */; };
+		64318A25204AE695002F43CA /* LiveGiftShowNumberView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64318A24204AE695002F43CA /* LiveGiftShowNumberView.swift */; };
+		64318A2B204AE9F6002F43CA /* LiveGiftShowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64318A2A204AE9F6002F43CA /* LiveGiftShowView.swift */; };
+		64318A2D204AEA0B002F43CA /* LiveGiftShowCustom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64318A2C204AEA0B002F43CA /* LiveGiftShowCustom.swift */; };
+		64318A2F204B9E1B002F43CA /* LiveDefaultIcon.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 64318A2E204B9E1B002F43CA /* LiveDefaultIcon.jpeg */; };
+		643493561EEEDC8800D93097 /* LiveTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 643493551EEEDC8800D93097 /* LiveTableViewCell.swift */; };
+		646459731F0D840000AC7450 /* Me.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 646459711F0D840000AC7450 /* Me.storyboard */; };
+		646459751F0D84D500AC7450 /* MeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 646459741F0D84D500AC7450 /* MeViewController.swift */; };
+		64ACBF4F205A39A30067E0D4 /* GiftChannelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64ACBF4E205A39A30067E0D4 /* GiftChannelView.swift */; };
+		64ACBF51205A39DE0067E0D4 /* GiftChannelView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64ACBF50205A39DE0067E0D4 /* GiftChannelView.xib */; };
+		64ACBF53205A54350067E0D4 /* GiftMessageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64ACBF52205A54350067E0D4 /* GiftMessageModel.swift */; };
+		64ACBF55205A99460067E0D4 /* GiftDigitLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64ACBF54205A99460067E0D4 /* GiftDigitLabel.swift */; };
+		64E4BAB61F1F4809009AACED /* Discover.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64E4BAB41F1F4809009AACED /* Discover.storyboard */; };
+		64E4BABA1F1F50CB009AACED /* DiscoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E4BAB91F1F50CB009AACED /* DiscoverViewController.swift */; };
+		64E4BABC1F1F5241009AACED /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E4BABB1F1F5241009AACED /* Category.swift */; };
+		AB3B4775997713EA37596714 /* Pods_YingKe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAAA7B1AB1C034A3E6FE1565 /* Pods_YingKe.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6409E3C31EEF894D0092B792 /* IJKMediaFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IJKMediaFramework.framework; sourceTree = "<group>"; };
+		6409E3C41EEF894D0092B792 /* libbz2.tbd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.text-based-dylib-definition"; path = libbz2.tbd; sourceTree = "<group>"; };
+		6409E3C51EEF894D0092B792 /* libcrypto.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libcrypto.a; sourceTree = "<group>"; };
+		6409E3C61EEF894D0092B792 /* librtmp.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = librtmp.a; sourceTree = "<group>"; };
+		6409E3C71EEF894D0092B792 /* libssl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libssl.a; sourceTree = "<group>"; };
+		6409E3C81EEF894D0092B792 /* libz.tbd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.text-based-dylib-definition"; path = libz.tbd; sourceTree = "<group>"; };
+		6409E3CF1EEF89EC0092B792 /* YingKe-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YingKe-Bridging-Header.h"; sourceTree = "<group>"; };
+		6409E3D31EEF922E0092B792 /* DMHeartFlyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMHeartFlyView.h; sourceTree = "<group>"; };
+		6409E3D41EEF922E0092B792 /* DMHeartFlyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMHeartFlyView.m; sourceTree = "<group>"; };
+		6409E3D71EEFA7540092B792 /* emmitParticles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = emmitParticles.swift; sourceTree = "<group>"; };
+		641548FE205B5B0A00AA517E /* GiftContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiftContainerView.swift; sourceTree = "<group>"; };
 		642D65911EEEAB8E008F645D /* YingKe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YingKe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		642D65941EEEAB8E008F645D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		642D65961EEEAB8E008F645D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +68,34 @@
 		642D659B1EEEAB8E008F645D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		642D659E1EEEAB8E008F645D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		642D65A01EEEAB8E008F645D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		642D65A71EEEAC4F008F645D /* YKCreator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YKCreator.swift; sourceTree = "<group>"; };
+		642D65A81EEEAC4F008F645D /* YKExtra.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YKExtra.swift; sourceTree = "<group>"; };
+		642D65A91EEEAC4F008F645D /* YKLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YKLabel.swift; sourceTree = "<group>"; };
+		642D65AA1EEEAC4F008F645D /* YKLive.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YKLive.swift; sourceTree = "<group>"; };
+		642D65AB1EEEAC4F008F645D /* YKLiveStream.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YKLiveStream.swift; sourceTree = "<group>"; };
+		642D65B11EEEAD29008F645D /* YKCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YKCell.swift; sourceTree = "<group>"; };
+		642D65B31EEEB0CE008F645D /* LivesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LivesTableViewController.swift; sourceTree = "<group>"; };
+		642D65B51EEEC6E5008F645D /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		64318A1E204AD42B002F43CA /* LiveGiftListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveGiftListModel.swift; sourceTree = "<group>"; };
+		64318A20204AD449002F43CA /* LiveUserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveUserModel.swift; sourceTree = "<group>"; };
+		64318A22204ADAC9002F43CA /* LiveGiftShowModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveGiftShowModel.swift; sourceTree = "<group>"; };
+		64318A24204AE695002F43CA /* LiveGiftShowNumberView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveGiftShowNumberView.swift; sourceTree = "<group>"; };
+		64318A2A204AE9F6002F43CA /* LiveGiftShowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveGiftShowView.swift; sourceTree = "<group>"; };
+		64318A2C204AEA0B002F43CA /* LiveGiftShowCustom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveGiftShowCustom.swift; sourceTree = "<group>"; };
+		64318A2E204B9E1B002F43CA /* LiveDefaultIcon.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = LiveDefaultIcon.jpeg; sourceTree = "<group>"; };
+		643493551EEEDC8800D93097 /* LiveTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LiveTableViewCell.swift; sourceTree = "<group>"; };
+		646459721F0D840000AC7450 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Me.storyboard; sourceTree = "<group>"; };
+		646459741F0D84D500AC7450 /* MeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeViewController.swift; sourceTree = "<group>"; };
+		64ACBF4E205A39A30067E0D4 /* GiftChannelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiftChannelView.swift; sourceTree = "<group>"; };
+		64ACBF50205A39DE0067E0D4 /* GiftChannelView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GiftChannelView.xib; sourceTree = "<group>"; };
+		64ACBF52205A54350067E0D4 /* GiftMessageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiftMessageModel.swift; sourceTree = "<group>"; };
+		64ACBF54205A99460067E0D4 /* GiftDigitLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiftDigitLabel.swift; sourceTree = "<group>"; };
+		64E4BAB51F1F4809009AACED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Discover.storyboard; sourceTree = "<group>"; };
+		64E4BAB91F1F50CB009AACED /* DiscoverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiscoverViewController.swift; sourceTree = "<group>"; };
+		64E4BABB1F1F5241009AACED /* Category.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		682C71D24F5E8A239D7A95E2 /* Pods-YingKe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YingKe.release.xcconfig"; path = "Pods/Target Support Files/Pods-YingKe/Pods-YingKe.release.xcconfig"; sourceTree = "<group>"; };
+		88E339787FC4111ACD847A45 /* Pods-YingKe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YingKe.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YingKe/Pods-YingKe.debug.xcconfig"; sourceTree = "<group>"; };
+		DAAA7B1AB1C034A3E6FE1565 /* Pods_YingKe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YingKe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +103,58 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6409E3CC1EEF894D0092B792 /* librtmp.a in Frameworks */,
+				6409E3CA1EEF894D0092B792 /* libbz2.tbd in Frameworks */,
+				6409E3CE1EEF894D0092B792 /* libz.tbd in Frameworks */,
+				6409E3CD1EEF894D0092B792 /* libssl.a in Frameworks */,
+				AB3B4775997713EA37596714 /* Pods_YingKe.framework in Frameworks */,
+				6409E3CB1EEF894D0092B792 /* libcrypto.a in Frameworks */,
+				6409E3C91EEF894D0092B792 /* IJKMediaFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		44808E101F92A6C6D2CCAC92 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DAAA7B1AB1C034A3E6FE1565 /* Pods_YingKe.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6409E3D21EEF922E0092B792 /* HeartFlyView-master */ = {
+			isa = PBXGroup;
+			children = (
+				6409E3D31EEF922E0092B792 /* DMHeartFlyView.h */,
+				6409E3D41EEF922E0092B792 /* DMHeartFlyView.m */,
+			);
+			path = "HeartFlyView-master";
+			sourceTree = "<group>";
+		};
+		6409E3D61EEFA7540092B792 /* emmitParticles-master */ = {
+			isa = PBXGroup;
+			children = (
+				6409E3D71EEFA7540092B792 /* emmitParticles.swift */,
+			);
+			path = "emmitParticles-master";
+			sourceTree = "<group>";
+		};
 		642D65881EEEAB8E008F645D = {
 			isa = PBXGroup;
 			children = (
+				6409E3C31EEF894D0092B792 /* IJKMediaFramework.framework */,
+				6409E3C41EEF894D0092B792 /* libbz2.tbd */,
+				6409E3C51EEF894D0092B792 /* libcrypto.a */,
+				6409E3C61EEF894D0092B792 /* librtmp.a */,
+				6409E3C71EEF894D0092B792 /* libssl.a */,
+				6409E3C81EEF894D0092B792 /* libz.tbd */,
+				642D65B51EEEC6E5008F645D /* Podfile */,
 				642D65931EEEAB8E008F645D /* YingKe */,
 				642D65921EEEAB8E008F645D /* Products */,
+				CF54EB80C7FF2462A24FE50A /* Pods */,
+				44808E101F92A6C6D2CCAC92 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +169,67 @@
 		642D65931EEEAB8E008F645D /* YingKe */ = {
 			isa = PBXGroup;
 			children = (
+				64318A1D204AD2DB002F43CA /* LiveGiftShowView */,
+				6409E3D61EEFA7540092B792 /* emmitParticles-master */,
+				6409E3D21EEF922E0092B792 /* HeartFlyView-master */,
+				642D65A61EEEAC4F008F645D /* Model */,
 				642D65941EEEAB8E008F645D /* AppDelegate.swift */,
 				642D65961EEEAB8E008F645D /* ViewController.swift */,
 				642D65981EEEAB8E008F645D /* Main.storyboard */,
+				64E4BAB41F1F4809009AACED /* Discover.storyboard */,
+				64E4BAB91F1F50CB009AACED /* DiscoverViewController.swift */,
+				646459711F0D840000AC7450 /* Me.storyboard */,
+				646459741F0D84D500AC7450 /* MeViewController.swift */,
+				642D65B31EEEB0CE008F645D /* LivesTableViewController.swift */,
+				643493551EEEDC8800D93097 /* LiveTableViewCell.swift */,
 				642D659B1EEEAB8E008F645D /* Assets.xcassets */,
 				642D659D1EEEAB8E008F645D /* LaunchScreen.storyboard */,
 				642D65A01EEEAB8E008F645D /* Info.plist */,
+				6409E3CF1EEF89EC0092B792 /* YingKe-Bridging-Header.h */,
 			);
 			path = YingKe;
+			sourceTree = "<group>";
+		};
+		642D65A61EEEAC4F008F645D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				642D65A71EEEAC4F008F645D /* YKCreator.swift */,
+				642D65B11EEEAD29008F645D /* YKCell.swift */,
+				64E4BABB1F1F5241009AACED /* Category.swift */,
+				642D65A81EEEAC4F008F645D /* YKExtra.swift */,
+				642D65A91EEEAC4F008F645D /* YKLabel.swift */,
+				642D65AA1EEEAC4F008F645D /* YKLive.swift */,
+				642D65AB1EEEAC4F008F645D /* YKLiveStream.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		64318A1D204AD2DB002F43CA /* LiveGiftShowView */ = {
+			isa = PBXGroup;
+			children = (
+				64318A2E204B9E1B002F43CA /* LiveDefaultIcon.jpeg */,
+				64318A1E204AD42B002F43CA /* LiveGiftListModel.swift */,
+				64318A20204AD449002F43CA /* LiveUserModel.swift */,
+				64318A22204ADAC9002F43CA /* LiveGiftShowModel.swift */,
+				64318A24204AE695002F43CA /* LiveGiftShowNumberView.swift */,
+				64318A2A204AE9F6002F43CA /* LiveGiftShowView.swift */,
+				64318A2C204AEA0B002F43CA /* LiveGiftShowCustom.swift */,
+				64ACBF4E205A39A30067E0D4 /* GiftChannelView.swift */,
+				64ACBF50205A39DE0067E0D4 /* GiftChannelView.xib */,
+				64ACBF52205A54350067E0D4 /* GiftMessageModel.swift */,
+				64ACBF54205A99460067E0D4 /* GiftDigitLabel.swift */,
+				641548FE205B5B0A00AA517E /* GiftContainerView.swift */,
+			);
+			path = LiveGiftShowView;
+			sourceTree = "<group>";
+		};
+		CF54EB80C7FF2462A24FE50A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				88E339787FC4111ACD847A45 /* Pods-YingKe.debug.xcconfig */,
+				682C71D24F5E8A239D7A95E2 /* Pods-YingKe.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +239,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 642D65A31EEEAB8E008F645D /* Build configuration list for PBXNativeTarget "YingKe" */;
 			buildPhases = (
+				74B4343358D1870828E28834 /* [CP] Check Pods Manifest.lock */,
 				642D658D1EEEAB8E008F645D /* Sources */,
 				642D658E1EEEAB8E008F645D /* Frameworks */,
 				642D658F1EEEAB8E008F645D /* Resources */,
+				17259463A06257C926A86F01 /* [CP] Embed Pods Frameworks */,
+				DD1D894168E16FAF1B89EFD7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -96,6 +267,8 @@
 				TargetAttributes = {
 					642D65901EEEAB8E008F645D = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = E5E7446DPB;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -125,19 +298,95 @@
 			files = (
 				642D659F1EEEAB8E008F645D /* LaunchScreen.storyboard in Resources */,
 				642D659C1EEEAB8E008F645D /* Assets.xcassets in Resources */,
+				64ACBF51205A39DE0067E0D4 /* GiftChannelView.xib in Resources */,
+				646459731F0D840000AC7450 /* Me.storyboard in Resources */,
+				64318A2F204B9E1B002F43CA /* LiveDefaultIcon.jpeg in Resources */,
+				642D65B61EEEC6E5008F645D /* Podfile in Resources */,
 				642D659A1EEEAB8E008F645D /* Main.storyboard in Resources */,
+				64E4BAB61F1F4809009AACED /* Discover.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		17259463A06257C926A86F01 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YingKe/Pods-YingKe-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		74B4343358D1870828E28834 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DD1D894168E16FAF1B89EFD7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YingKe/Pods-YingKe-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		642D658D1EEEAB8E008F645D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64318A21204AD449002F43CA /* LiveUserModel.swift in Sources */,
+				646459751F0D84D500AC7450 /* MeViewController.swift in Sources */,
+				642D65AD1EEEAC4F008F645D /* YKExtra.swift in Sources */,
+				643493561EEEDC8800D93097 /* LiveTableViewCell.swift in Sources */,
+				64318A25204AE695002F43CA /* LiveGiftShowNumberView.swift in Sources */,
 				642D65971EEEAB8E008F645D /* ViewController.swift in Sources */,
+				642D65B41EEEB0CE008F645D /* LivesTableViewController.swift in Sources */,
+				642D65AE1EEEAC4F008F645D /* YKLabel.swift in Sources */,
+				642D65B21EEEAD29008F645D /* YKCell.swift in Sources */,
+				6409E3D81EEFA7540092B792 /* emmitParticles.swift in Sources */,
+				642D65B01EEEAC4F008F645D /* YKLiveStream.swift in Sources */,
+				64318A1F204AD42B002F43CA /* LiveGiftListModel.swift in Sources */,
+				64E4BABA1F1F50CB009AACED /* DiscoverViewController.swift in Sources */,
+				6409E3D51EEF922E0092B792 /* DMHeartFlyView.m in Sources */,
+				64318A2B204AE9F6002F43CA /* LiveGiftShowView.swift in Sources */,
+				64318A2D204AEA0B002F43CA /* LiveGiftShowCustom.swift in Sources */,
+				64ACBF53205A54350067E0D4 /* GiftMessageModel.swift in Sources */,
+				64ACBF4F205A39A30067E0D4 /* GiftChannelView.swift in Sources */,
+				641548FF205B5B0A00AA517E /* GiftContainerView.swift in Sources */,
+				64ACBF55205A99460067E0D4 /* GiftDigitLabel.swift in Sources */,
+				64E4BABC1F1F5241009AACED /* Category.swift in Sources */,
+				642D65AC1EEEAC4F008F645D /* YKCreator.swift in Sources */,
 				642D65951EEEAB8E008F645D /* AppDelegate.swift in Sources */,
+				64318A23204ADAC9002F43CA /* LiveGiftShowModel.swift in Sources */,
+				642D65AF1EEEAC4F008F645D /* YKLive.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -158,6 +407,22 @@
 				642D659E1EEEAB8E008F645D /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		646459711F0D840000AC7450 /* Me.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				646459721F0D840000AC7450 /* Base */,
+			);
+			name = Me.storyboard;
+			sourceTree = "<group>";
+		};
+		64E4BAB41F1F4809009AACED /* Discover.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64E4BAB51F1F4809009AACED /* Base */,
+			);
+			name = Discover.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -256,25 +521,50 @@
 		};
 		642D65A41EEEAB8E008F645D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88E339787FC4111ACD847A45 /* Pods-YingKe.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = E5E7446DPB;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = YingKe/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = site.shimizu.www.YingKe;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_OBJC_BRIDGING_HEADER = "YingKe/YingKe-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
 		642D65A51EEEAB8E008F645D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 682C71D24F5E8A239D7A95E2 /* Pods-YingKe.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = E5E7446DPB;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = YingKe/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = site.shimizu.www.YingKe;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_OBJC_BRIDGING_HEADER = "YingKe/YingKe-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
@@ -297,6 +587,7 @@
 				642D65A51EEEAB8E008F645D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
